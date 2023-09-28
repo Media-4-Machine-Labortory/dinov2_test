@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.2.0-devel-ubuntu22.04
+FROM ubuntu:22.04
 
 RUN apt-get update -y && apt-get -y install sudo git software-properties-common python3.9 python3-pip
 
