@@ -1,4 +1,4 @@
---extra-index-url https://download.pytorch.org/whl/cu117
+
 torch==2.0.0
 torchvision==0.15.0
 omegaconf
@@ -8,5 +8,7 @@ iopath
 xformers==0.0.18
 submitit
 opencv-python
+mmcv-full==1.5.0
+mmsegmentation==0.27.0
 --extra-index-url https://pypi.nvidia.com
 cuml-cu11
