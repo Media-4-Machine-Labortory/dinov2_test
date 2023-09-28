@@ -1,6 +1,6 @@
 FROM nvidia/cuda:12.2.0-devel-ubuntu22.04
 
-RUN apt-get update -y && apt-get -y install sudo git software-properties-common python3.9 python3-pip
+RUN apt-get update -y && apt-get -y install sudo git software-properties-common python3.9 python3-pip libgl1-mesa-glx
 
 RUN mkdir src
 WORKDIR /src
